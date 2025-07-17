@@ -88,4 +88,16 @@ Region must match your EC2 app config (e.g., ap-south-1).
 <img width="744" height="339" alt="image" src="https://github.com/user-attachments/assets/f15ae9c4-5139-4e3b-b465-f74d9fc652ee" />
 
 
+**📊 Architecture Diagram**
+Browser (HTTP) 
+     │
+     ▼
+EC2 (Dockerized Node.js App)
+     │
+     ▼
+AWS DynamoDB (NoSQL Database)
+
+---------------
+
+<img width="1004" height="469" alt="image" src="https://github.com/user-attachments/assets/e5c0ca31-21a5-494c-b308-bc364aa0375e" />
 
